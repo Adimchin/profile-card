@@ -4,5 +4,5 @@ function updateTime() {
   timeElement.textContent = Date.now().toString()
 }
 
-updateTime()
-setInterval(updateTime, 1000)
+updateTime();
+setInterval(updateTime, 1000);
